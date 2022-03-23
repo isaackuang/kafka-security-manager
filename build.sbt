@@ -13,7 +13,7 @@ import scala.sys.process.Process
 
 name := "kafka-security-manager"
 
-version := "1.1.0-SNAPSHOT"
+version := "1.1.1"
 
 scalaVersion := "2.12.15"
 
