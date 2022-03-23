@@ -4,8 +4,8 @@
 
 docker_push(){
     echo "Pushing tag $1 to docker hub"
-    docker tag "conduktor/kafka-security-manager:latest" "conduktor/kafka-security-manager:$1"
-    docker push "conduktor/kafka-security-manager:$1"
+    docker tag "isaackuang/kafka-security-manager:latest" "isaackuang/kafka-security-manager:$1"
+    docker push "isaackuang/kafka-security-manager:$1"
 }
 
 if [[ -z "$GITHUB_BASE_REF" ]]; then
